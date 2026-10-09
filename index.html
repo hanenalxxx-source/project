@@ -1,0 +1,1094 @@
+=<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cybersecurity Awareness Month 2026</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Orbitron:wght@500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= SPLASH SCREEN ================= -->
+
+    <div class="splash-screen" id="splashScreen">
+
+        <div class="splash-content">
+
+            <div class="splash-icon">🛡️</div>
+
+            <p class="splash-small" data-key="splashSmall">
+                CYBERSECURITY AWARENESS MONTH 2026
+            </p>
+
+            <h1 data-key="splashTitle">
+                Cybersecurity Awareness Month 2026
+            </h1>
+
+            <p class="splash-text" data-key="splashText">
+                Together for a Safer Digital World
+            </p>
+
+            <div class="splash-slogan" data-key="splashSlogan">
+                Think Before You Click.
+            </div>
+
+            <button
+                class="primary-btn"
+                onclick="enterSite()"
+                data-key="enterButton">
+                Enter the Awareness Zone
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="navbar" id="navbar">
+
+        <div class="nav-container">
+
+            <a href="#home" class="logo">
+                <span>🛡️</span>
+                CyberSafe
+            </a>
+
+            <nav class="nav-links">
+
+                <a href="#home" data-key="navHome">Home</a>
+
+                <a href="#about" data-key="navAbout">About</a>
+
+                <a href="#topics" data-key="navTopics">Topics</a>
+
+                <a href="#scanner" data-key="navScanner">Link Check</a>
+
+                <a href="#challenge" data-key="navChallenge">Challenge</a>
+
+                <a href="#resources" data-key="navResources">Resources</a>
+
+            </nav>
+
+
+            <!-- ================= LANGUAGE BUTTON ================= -->
+
+            <div class="language-wrapper">
+
+                <button
+                    class="language-btn"
+                    id="languageButton"
+                    onclick="toggleLanguageMenu()"
+                    aria-label="Change language">
+
+                    🌐
+                    <span id="currentLanguage">EN</span>
+                    <span>⌄</span>
+
+                </button>
+
+
+                <div
+                    class="language-menu"
+                    id="languageMenu">
+
+                    <button
+                        type="button"
+                        onclick="changeLanguage('en')">
+
+                        🇬🇧 English
+
+                    </button>
+
+                    <button
+                        type="button"
+                        onclick="changeLanguage('ar')">
+
+                        🇸🇦 العربية
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- ================= MAIN ================= -->
+
+    <main>
+
+
+        <!-- ================= HERO ================= -->
+
+        <section class="hero section" id="home">
+
+            <div class="hero-grid">
+
+                <div class="hero-content reveal">
+
+                    <span class="badge" data-key="heroBadge">
+                        OCTOBER • EVERY YEAR
+                    </span>
+
+                    <h1>
+
+                        <span data-key="heroTitle1">
+                            Think Before
+                        </span>
+
+                        <span
+                            class="gradient-text"
+                            data-key="heroTitle2">
+                            You Click.
+                        </span>
+
+                    </h1>
+
+                    <p data-key="heroText">
+                        Cybersecurity Awareness Month is a global campaign
+                        dedicated to helping people stay safer, smarter,
+                        and more secure online.
+                    </p>
+
+
+                    <div class="hero-buttons">
+
+                        <a
+                            href="#topics"
+                            class="primary-btn"
+                            data-key="exploreButton">
+
+                            Explore Cyber Safety
+
+                        </a>
+
+                        <a
+                            href="#challenge"
+                            class="secondary-btn"
+                            data-key="challengeButton">
+
+                            Take the Challenge
+
+                        </a>
+
+                    </div>
+
+
+                    <div class="hero-stats">
+
+                        <div>
+                            <strong>01</strong>
+                            <span data-key="stat1">Think</span>
+                        </div>
+
+                        <div>
+                            <strong>02</strong>
+                            <span data-key="stat2">Check</span>
+                        </div>
+
+                        <div>
+                            <strong>03</strong>
+                            <span data-key="stat3">Protect</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="hero-visual reveal">
+
+                    <div class="cyber-orbit orbit-one"></div>
+
+                    <div class="cyber-orbit orbit-two"></div>
+
+
+                    <div class="shield-card">
+
+                        <div class="shield-glow"></div>
+
+                        <div class="shield-icon">
+                            🛡️
+                        </div>
+
+                        <div class="shield-lines">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                        <h3 data-key="secureTitle">
+                            Stay Secure
+                        </h3>
+
+                        <p data-key="secureText">
+                            Protect your accounts, devices and information.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= ABOUT ================= -->
+
+        <section
+            class="section about-section"
+            id="about">
+
+            <div class="section-heading reveal">
+
+                <span
+                    class="section-small"
+                    data-key="aboutSmall">
+
+                    ABOUT THE MONTH
+
+                </span>
+
+                <h2 data-key="aboutTitle">
+                    What is Cybersecurity Awareness Month?
+                </h2>
+
+                <p data-key="aboutIntro">
+                    A month dedicated to building safer digital habits.
+                </p>
+
+            </div>
+
+
+            <div class="about-grid">
+
+                <div class="about-card large-card reveal">
+
+                    <div class="card-icon">
+                        🌐
+                    </div>
+
+                    <h3 data-key="aboutCardTitle">
+                        A Global Awareness Campaign
+                    </h3>
+
+                    <p data-key="aboutCardText">
+                        Cybersecurity Awareness Month takes place every
+                        October. It encourages individuals, organizations,
+                        and communities to learn simple ways to protect
+                        themselves in the digital world.
+                    </p>
+
+
+                    <div class="date-box">
+
+                        <strong data-key="october">
+                            OCTOBER
+                        </strong>
+
+                        <span data-key="dateText">
+                            Cybersecurity Awareness Month
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="about-card reveal">
+
+                    <div class="card-icon">
+                        🔐
+                    </div>
+
+                    <h3 data-key="aboutCard2Title">
+                        Your Information Matters
+                    </h3>
+
+                    <p data-key="aboutCard2Text">
+                        Passwords, photos, accounts, messages and personal
+                        information all need protection.
+                    </p>
+
+                </div>
+
+
+                <div class="about-card reveal">
+
+                    <div class="card-icon">
+                        💡
+                    </div>
+
+                    <h3 data-key="aboutCard3Title">
+                        Small Actions Matter
+                    </h3>
+
+                    <p data-key="aboutCard3Text">
+                        Strong passwords, updates, multi-factor authentication
+                        and careful clicking can make a real difference.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= GOALS ================= -->
+
+        <section class="section goals-section">
+
+            <div class="section-heading reveal">
+
+                <span
+                    class="section-small"
+                    data-key="goalsSmall">
+
+                    THE GOAL
+
+                </span>
+
+                <h2 data-key="goalsTitle">
+                    Build Better Digital Habits
+                </h2>
+
+            </div>
+
+
+            <div class="goals-grid">
+
+                <div class="goal-card reveal">
+
+                    <span>01</span>
+
+                    <h3 data-key="goal1Title">
+                        Think
+                    </h3>
+
+                    <p data-key="goal1Text">
+                        Stop and think before clicking unexpected links,
+                        downloading files or sharing information.
+                    </p>
+
+                </div>
+
+
+                <div class="goal-card reveal">
+
+                    <span>02</span>
+
+                    <h3 data-key="goal2Title">
+                        Check
+                    </h3>
+
+                    <p data-key="goal2Text">
+                        Verify messages, websites and requests before
+                        trusting them.
+                    </p>
+
+                </div>
+
+
+                <div class="goal-card reveal">
+
+                    <span>03</span>
+
+                    <h3 data-key="goal3Title">
+                        Protect
+                    </h3>
+
+                    <p data-key="goal3Text">
+                        Use strong passwords, updates and extra security
+                        controls to protect your accounts and devices.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= TOPICS ================= -->
+
+        <section class="section" id="topics">
+
+            <div class="section-heading reveal">
+
+                <span
+                    class="section-small"
+                    data-key="topicsSmall">
+
+                    CYBER SAFETY TOPICS
+
+                </span>
+
+                <h2 data-key="topicsTitle">
+                    Know What You Need to Protect
+                </h2>
+
+                <p data-key="topicsIntro">
+                    Learn the most important habits for staying safe online.
+                </p>
+
+            </div>
+
+
+            <div class="topics-grid">
+
+
+                <article class="topic-card reveal">
+
+                    <div class="topic-number">01</div>
+
+                    <div class="topic-icon">🔑</div>
+
+                    <h3 data-key="topic1Title">
+                        Strong Passwords
+                    </h3>
+
+                    <p data-key="topic1Text">
+                        Use long, unique passwords and avoid using the same
+                        password across different accounts.
+                    </p>
+
+                </article>
+
+
+                <article class="topic-card reveal">
+
+                    <div class="topic-number">02</div>
+
+                    <div class="topic-icon">🎣</div>
+
+                    <h3 data-key="topic2Title">
+                        Phishing & Scams
+                    </h3>
+
+                    <p data-key="topic2Text">
+                        Be careful with urgent messages, unexpected requests,
+                        suspicious attachments and fake websites.
+                    </p>
+
+                </article>
+
+
+                <article class="topic-card reveal">
+
+                    <div class="topic-number">03</div>
+
+                    <div class="topic-icon">🔗</div>
+
+                    <h3 data-key="topic3Title">
+                        Fake Links
+                    </h3>
+
+                    <p data-key="topic3Text">
+                        Check the website address carefully before entering
+                        passwords or personal information.
+                    </p>
+
+                </article>
+
+
+                <article class="topic-card reveal">
+
+                    <div class="topic-number">04</div>
+
+                    <div class="topic-icon">📱</div>
+
+                    <h3 data-key="topic4Title">
+                        Account Protection
+                    </h3>
+
+                    <p data-key="topic4Text">
+                        Enable multi-factor authentication and never share
+                        verification codes with anyone.
+                    </p>
+
+                </article>
+
+
+                <article class="topic-card reveal">
+
+                    <div class="topic-number">05</div>
+
+                    <div class="topic-icon">🕵️</div>
+
+                    <h3 data-key="topic5Title">
+                        Privacy
+                    </h3>
+
+                    <p data-key="topic5Text">
+                        Think carefully before sharing photos, personal
+                        details or sensitive information online.
+                    </p>
+
+                </article>
+
+
+                <article class="topic-card reveal">
+
+                    <div class="topic-number">06</div>
+
+                    <div class="topic-icon">💻</div>
+
+                    <h3 data-key="topic6Title">
+                        Device Security
+                    </h3>
+
+                    <p data-key="topic6Text">
+                        Keep your operating system and applications updated
+                        and avoid suspicious downloads.
+                    </p>
+
+                </article>
+
+
+                <article class="topic-card reveal">
+
+                    <div class="topic-number">07</div>
+
+                    <div class="topic-icon">🧠</div>
+
+                    <h3 data-key="topic7Title">
+                        Social Engineering
+                    </h3>
+
+                    <p data-key="topic7Text">
+                        Attackers may manipulate people using fear, urgency
+                        or trust to obtain information.
+                    </p>
+
+                </article>
+
+
+                <article class="topic-card reveal">
+
+                    <div class="topic-number">08</div>
+
+                    <div class="topic-icon">🤝</div>
+
+                    <h3 data-key="topic8Title">
+                        Cyberbullying
+                    </h3>
+
+                    <p data-key="topic8Text">
+                        Treat others respectfully online and know how to
+                        block, report and preserve evidence when necessary.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= LINK SCANNER ================= -->
+
+        <section
+            class="section scanner-section"
+            id="scanner">
+
+            <div class="section-heading reveal">
+
+                <span
+                    class="section-small"
+                    data-key="scannerSmall">
+
+                    BEFORE YOU CLICK
+
+                </span>
+
+                <h2 data-key="scannerTitle">
+                    Check a Suspicious Link
+                </h2>
+
+                <p data-key="scannerIntro">
+                    Enter a website address to perform a basic safety check.
+                </p>
+
+            </div>
+
+
+            <div class="scanner-card reveal">
+
+                <div class="scanner-input">
+
+                    <input
+                        type="text"
+                        id="urlInput"
+                        data-key-placeholder="urlPlaceholder"
+                        placeholder="Enter a website link..."
+                    >
+
+                    <button
+                        onclick="checkURL()"
+                        class="primary-btn"
+                        data-key="checkButton">
+
+                        Check Link
+
+                    </button>
+
+                </div>
+
+
+                <div id="scannerResult"></div>
+
+
+                <div class="scanner-note">
+
+                    <span>ℹ️</span>
+
+                    <span data-key="scannerNote">
+                        This tool provides a basic educational check.
+                        It does not guarantee that a website is safe.
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SECURITY ================= -->
+
+        <section class="section security-section">
+
+            <div class="security-content reveal">
+
+                <span
+                    class="section-small"
+                    data-key="securitySmall">
+
+                    SIMPLE PROTECTION
+
+                </span>
+
+                <h2 data-key="securityTitle">
+                    Protect Your Digital Life
+                </h2>
+
+                <p data-key="securityIntro">
+                    A few simple habits can strengthen your everyday
+                    cybersecurity.
+                </p>
+
+            </div>
+
+
+            <div class="security-list">
+
+
+                <div class="security-item reveal">
+
+                    <span class="check">✓</span>
+
+                    <div>
+
+                        <h3 data-key="security1Title">
+                            Use unique passwords
+                        </h3>
+
+                        <p data-key="security1Text">
+                            Avoid reusing the same password for multiple accounts.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="security-item reveal">
+
+                    <span class="check">✓</span>
+
+                    <div>
+
+                        <h3 data-key="security2Title">
+                            Turn on MFA
+                        </h3>
+
+                        <p data-key="security2Text">
+                            Add another verification step to important accounts.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="security-item reveal">
+
+                    <span class="check">✓</span>
+
+                    <div>
+
+                        <h3 data-key="security3Title">
+                            Install updates
+                        </h3>
+
+                        <p data-key="security3Text">
+                            Updates can fix security weaknesses in software.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="security-item reveal">
+
+                    <span class="check">✓</span>
+
+                    <div>
+
+                        <h3 data-key="security4Title">
+                            Protect verification codes
+                        </h3>
+
+                        <p data-key="security4Text">
+                            Never give one-time codes to someone who asks for them.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CHALLENGE ================= -->
+
+        <section
+            class="section challenge-section"
+            id="challenge">
+
+            <div class="section-heading reveal">
+
+                <span
+                    class="section-small"
+                    data-key="challengeSmall">
+
+                    TEST YOUR KNOWLEDGE
+
+                </span>
+
+                <h2 data-key="challengeTitle">
+                    Cyber Safety Challenge
+                </h2>
+
+                <p data-key="challengeIntro">
+                    Answer the questions and discover how strong your
+                    cybersecurity habits are.
+                </p>
+
+            </div>
+
+
+            <div class="quiz-card reveal">
+
+                <div class="quiz-top">
+
+                    <span id="questionNumber">
+                        Question 1 of 5
+                    </span>
+
+                    <span id="quizScore">
+                        Score: 0
+                    </span>
+
+                </div>
+
+
+                <div class="progress-bar">
+
+                    <div id="progressFill"></div>
+
+                </div>
+
+
+                <div id="quizContent">
+
+                    <h3 id="questionText"></h3>
+
+                    <div id="answersContainer"></div>
+
+                    <div id="quizFeedback"></div>
+
+                    <button
+                        id="nextButton"
+                        class="primary-btn next-btn"
+                        onclick="nextQuestion()"
+                        style="display:none;"
+                        data-key="nextButton">
+
+                        Next Question
+
+                    </button>
+
+                </div>
+
+
+                <div
+                    id="quizResult"
+                    class="quiz-result"
+                    style="display:none;">
+
+                    <div class="result-icon">
+                        🛡️
+                    </div>
+
+                    <h2 data-key="resultTitle">
+                        Your Cyber Safety Score
+                    </h2>
+
+                    <div id="finalScore"></div>
+
+                    <p id="resultMessage"></p>
+
+                    <button
+                        class="primary-btn"
+                        onclick="restartQuiz()"
+                        data-key="restartButton">
+
+                        Try Again
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= RESOURCES ================= -->
+
+        <section
+            class="section resources-section"
+            id="resources">
+
+            <div class="section-heading reveal">
+
+                <span
+                    class="section-small"
+                    data-key="resourcesSmallTitle">
+
+                    USEFUL RESOURCES
+
+                </span>
+
+                <h2 data-key="resourcesTitle">
+                    Saudi Cybersecurity Resources
+                </h2>
+
+                <p data-key="resourcesIntro">
+                    Explore trusted resources to learn more about
+                    cybersecurity and personal data protection.
+                </p>
+
+            </div>
+
+
+            <div class="resource-grid">
+
+
+                <article class="resource-card reveal">
+
+                    <div class="resource-icon">
+                        🛡️
+                    </div>
+
+                    <h3 data-key="resource1Title">
+                        National Cybersecurity Authority
+                    </h3>
+
+                    <p data-key="resource1Text">
+                        Official cybersecurity awareness resources,
+                        campaigns and educational materials.
+                    </p>
+
+                    <a
+                        href="https://nca.gov.sa/ar/cyber-awareness/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="resource-link"
+                        data-key="resource1Button">
+
+                        Visit Resource →
+
+                    </a>
+
+                </article>
+
+
+                <article class="resource-card reveal">
+
+                    <div class="resource-icon">
+                        🔎
+                    </div>
+
+                    <h3 data-key="resource2Title">
+                        Tahqaq – Link Verification
+                    </h3>
+
+                    <p data-key="resource2Text">
+                        A Saudi National Cybersecurity Authority service
+                        for checking the reliability of circulated links.
+                    </p>
+
+                    <a
+                        href="https://nca.gov.sa/ar/cyber-awareness/awareness-campaigns/tahqaq/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="resource-link"
+                        data-key="resource2Button">
+
+                        Check Links →
+
+                    </a>
+
+                </article>
+
+
+                <article class="resource-card reveal">
+
+                    <div class="resource-icon">
+                        🔐
+                    </div>
+
+                    <h3 data-key="resource3Title">
+                        Personal Data Protection
+                    </h3>
+
+                    <p data-key="resource3Text">
+                        Learn about personal data protection and
+                        privacy-related guidance in Saudi Arabia.
+                    </p>
+
+                    <a
+                        href="https://dgp.sdaia.gov.sa/wps/portal/pdp/knowledgecenter/details/PersonalDataDisclosure"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="resource-link"
+                        data-key="resource3Button">
+
+                        Learn More →
+
+                    </a>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= FINAL CTA ================= -->
+
+        <section class="final-section">
+
+            <div class="final-glow"></div>
+
+            <div class="final-content reveal">
+
+                <div class="final-icon">
+                    🛡️
+                </div>
+
+                <span
+                    class="section-small"
+                    data-key="finalSmall">
+
+                    YOUR DIGITAL SAFETY STARTS WITH YOU
+
+                </span>
+
+                <h2 data-key="finalTitle">
+                    Think. Check. Protect.
+                </h2>
+
+                <p data-key="finalText">
+                    Before you click, stop for a second.
+                    A small moment of awareness can protect a lot.
+                </p>
+
+                <a
+                    href="#challenge"
+                    class="primary-btn"
+                    data-key="finalButton">
+
+                    Take the Challenge
+
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="footer-content">
+
+            <div class="footer-logo">
+                🛡️ CyberSafe
+            </div>
+
+            <p data-key="footerText">
+                Cybersecurity Awareness Month 2026
+            </p>
+
+            <p
+                class="footer-slogan"
+                data-key="footerSlogan">
+
+                Think Before You Click.
+
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- ================= JAVASCRIPT ================= -->
+
+    <!-- Language system first -->
+    <script src="languages.js"></script>
+
+    <!-- Main website functions -->
+    <script src="script.js"></script>
+    <script src="./HACKER.JS"></script>
+
+</body>
+
+</html>
