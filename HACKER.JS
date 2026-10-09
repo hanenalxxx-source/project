@@ -47,7 +47,7 @@
         document.body.prepend(canvas);
 
         var ctx = canvas.getContext("2d");
-        var chars = "01{}[]<>/\\|#$%&*+";
+        var chars = "01{}[]<>/\\|#$%&*+=";
         var size = 16;
         var drops = [];
 

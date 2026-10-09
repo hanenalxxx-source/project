@@ -242,7 +242,7 @@ h1, h2, h3 { text-shadow: 0 0 14px rgba(56, 189, 248, 0.18); }
     display: inline-block;
     margin-bottom: 15px;
 }
-.section-small::before { content: "// "; }
+.section-small::before { content: ""; }
 .section-heading h2 {
     font-family: "Orbitron", sans-serif;
     font-size: clamp(28px, 4vw, 45px);
